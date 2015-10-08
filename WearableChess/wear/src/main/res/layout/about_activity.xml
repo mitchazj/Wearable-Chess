@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/container"
+    tools:context="com.orangutandevelopment.wearablechess.AboutActivity" tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_box="all"
+        android:padding="10px">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wearable Chess v1.0\n© Orangutan Development 2015\n\nThis free editon of Wearable Chess is powered by Toledo Nanochess (nanochess.org), a tiny open-source chess engine by Óscar Toledo Gutiérrez.\n\nThe source of this app will soon available on Github and CodeProject."
+                    android:id="@+id/textView"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nanochess.org"
+                    android:visibility="gone"
+                    android:id="@+id/button2"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</android.support.wearable.view.BoxInsetLayout>

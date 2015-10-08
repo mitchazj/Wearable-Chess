@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wearable Chess</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="title_activity_chessboard_fragment">ChessboardFragment</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_unlock">UnlockActivity</string>
+    <string name="title_activity_newgame">NewGameActivity</string>
+</resources>

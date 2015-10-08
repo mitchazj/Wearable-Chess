@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="semi_transparent_black">#bb000000</drawable>
+    <color name="text_color">#FF000000</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orangutandevelopment.wearablechess.WearableListItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_height="42dp"
+        android:layout_width="42dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/w1_circle"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_undo_black_24dp"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left|center_vertical">
+
+        <TextView
+            android:id="@+id/header"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/subheader"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/text_color"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</com.orangutandevelopment.wearablechess.WearableListItemLayout>
