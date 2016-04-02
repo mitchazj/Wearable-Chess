@@ -27,7 +27,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Wearable Chess v1.0\n© Orangutan Development 2015\n\nThis free editon of Wearable Chess is powered by Toledo Nanochess (nanochess.org), a tiny open-source chess engine by Óscar Toledo Gutiérrez.\n\nThe source of this app will soon available on Github and CodeProject."
+                    android:text="Wearable Chess v1.1\n© Orangutan Development 2016\n\nThis free editon of Wearable Chess is powered by Toledo Nanochess (nanochess.org), a tiny open-source chess engine by Óscar Toledo Gutiérrez.\n\nThe source of this app is available on Github and CodeProject."
                     android:id="@+id/textView"
                     android:padding="10dp"
                     android:gravity="center"
