@@ -65,7 +65,7 @@ public class Chess {
     }
 
     public void Respond() {
-        Respond(4);
+        Respond(3);
     }
 
     public void Respond(int depth) {

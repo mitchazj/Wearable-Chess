@@ -79,7 +79,6 @@
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp"
                     android:paddingBottom="20dp"
-                    android:gravity="center"
                     android:visibility="gone"
                     android:id="@+id/pnClicked">
 
@@ -87,14 +86,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Check your phone :-)"
+                        android:text="You&apos;ll need to use your phone :-)"
                         android:id="@+id/textView4" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="The pro edition is available on Google Play. We&apos;ve opened it up for you."
+                        android:text="Open Wearable Chess on your phone and tap &quot;Upgrade&quot;, or search for &quot;Wearable Chess Pro&quot; in the Play Store."
                         android:id="@+id/textView5"
                         android:layout_marginTop="10dp" />
                 </LinearLayout>

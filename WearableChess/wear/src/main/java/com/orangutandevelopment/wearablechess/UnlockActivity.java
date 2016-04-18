@@ -16,9 +16,9 @@ public class UnlockActivity extends WearableActivity {
     }
 
     public void onUnlockButtonClick(View v) {
-        Intent toggleAlarmOperation = new Intent(this, UpgradeNowServiceWear.class);
-        toggleAlarmOperation.setAction(UpgradeNowServiceWear.ACTION_TOGGLE_ALARM);
-        this.startService(toggleAlarmOperation);
+        //Intent toggleAlarmOperation = new Intent(this, UpgradeNowServiceWear.class);
+        //toggleAlarmOperation.setAction(UpgradeNowServiceWear.ACTION_TOGGLE_ALARM);
+        //this.startService(toggleAlarmOperation);
 
         LinearLayout pnDefault = (LinearLayout) findViewById(R.id.pnDefault);
         pnDefault.setVisibility(View.GONE);

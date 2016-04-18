@@ -68,8 +68,6 @@ public class UpgradeNowServiceWear extends IntentService implements GoogleApiCli
                 }
                 // Toggle alarm.
                 alarmOn = !alarmOn;
-                // Do stuff based on new value of alarmOn.
-
             }
             // Use alarmOn boolean to update the DataItem - phone will respond accordingly
             // when it receives the change.

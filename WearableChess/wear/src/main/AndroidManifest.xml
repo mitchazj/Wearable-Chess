@@ -16,7 +16,7 @@
             android:name="com.google.android.wearable"
             android:required="false" />
 
-        <service android:name="com.orangutandevelopment.wearablechess.UpgradeNowServiceWear"/>
+        <!--<service android:name="com.orangutandevelopment.wearablechess.UpgradeNowServiceWear"/>-->
 
         <activity
             android:name=".MainActivity"
